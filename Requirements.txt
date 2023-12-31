@@ -1,0 +1,7 @@
+This app, contains two separate folders, one for the frontend (Angular) and one for the backend (C#).
+
+To run this app successfully, you need to do the following changes to the backend :
+
+- appsettings.json : Confirm you connect to SQL server with "Data Source=.\\SQLEXPRESS". The Database will be created the code itself
+
+- in ".\RandomNameGenerator\Controllers\NamesController.cs", in line 52, the path should be changed accordingly to match the given Excel file "NamesData.xlsx"
